@@ -2,5 +2,9 @@
   "name": "packaged/polyfill-php80",
   "license": "MIT",
   "require": {
+    "php": ">=8.0"
+  },
+  "replace": {
+    "symfony/polyfill-php80": "*"
   }
 }
